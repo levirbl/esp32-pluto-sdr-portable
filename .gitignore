@@ -1,0 +1,19 @@
+# O repositório publica só os binários, o conteúdo do cartão SD e a documentação.
+# O código-fonte (sdr/, pluto/*.c, tools/, sketches de teste) e os outros projetos desta pasta
+# ficam de fora: tudo é ignorado, menos o que está liberado abaixo.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/CHANGELOG.md
+!/docs/
+!/sdcard/
+!/esp32-usb/
+!/hardware/
+
+# Do Pluto, só o que vai instalado nele
+!/pluto/
+/pluto/*
+!/pluto/deploy/
+/pluto/deploy/bench_*
+/pluto/deploy/rx_streaming_fft_*

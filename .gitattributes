@@ -1,0 +1,7 @@
+# Texto sempre com LF (os scripts do Pluto quebram com CRLF)
+* text=auto eol=lf
+
+# Binários: firmware do ESP32, programa do Pluto e mapa
+*.bin binary
+*.map binary
+pluto/deploy/rx_streaming_fft binary

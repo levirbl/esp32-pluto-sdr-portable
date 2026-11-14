@@ -1,0 +1,296 @@
+# Frequencias de descida dos satelites (copiar para /sat/freq.txt no cartao)
+# Gerado de SatNOGS DB (db.satnogs.org, CC BY-SA): so transmissores ativos dos satelites dos TLE.
+# Gerado em 2026-10-20. Uma por linha: NORAD MHz modo nome
+# Modos: FM, SSTV, APRS, CW, USB, LSB, AFSK, PSK, DADOS (telemetria: ouve-se o chiado dos pacotes);
+# /N = velocidade em bauds (o Ouvir escolhe a banda por ela)
+# OSCAR 7 (AO-7)
+7530   145.95      USB         Mode U/V (B) Lin
+7530   145.9775    CW          Mode U/V (B) TLM Be
+7530   435.1       CW          Mode U TLM Beacon
+# PHASE 3B (AO-10)
+14129  145.81      CW          Beacon (unmodulated
+14129  145.987     CW          Engineering Beacon
+# UOSAT 2 (UO-11)
+14781  145.825     APRS/1200   1k2 AFSK TLM
+# LUSAT (LO-19)
+20442  435.078     DADOS       Carrier
+20442  437.125     CW          Mode U TLM
+20442  437.15      PSK/1200    BPSK BPSK 1k2 Trans
+# EYESAT A (AO-27)
+22825  436.795     AFSK/1200   AFSK Mode U AFSK Be
+22825  436.795     FM          Mode V/U FM
+22825  436.797     DADOS/9600  GMSK Mode U - GMSK9
+# ITAMSAT (IO-26)
+22826  435.772     PSK/1200    BPSK BPSK CW carrie
+# JAS-2 (FO-29)
+24278  435.795     CW          Mode U CW Beacon
+24278  435.85      USB         Mode V/U Linear Tra
+24278  435.91      FM          Mode U Digitalker
+# TECHSAT 1B (GO-32)
+25397  435.225     DADOS/9600  FSK Mode U 9k6 FSK
+25397  435.325     DADOS/9600  FSK Mode U 9k6 FSK
+# ISS (ZARYA)
+25544  145.8       FM          Mode V/V FM (crew R
+25544  145.8       SSTV        Mode V Imaging
+25544  145.825     APRS/1200   Mode V APRS
+25544  435.4       FM          Mode U - Possibly V
+25544  437.55      SSTV        Mode U - SSTV - Rob
+25544  437.8       DADOS/9600  FSK IORS Telemetry
+25544  437.8       FM          Mode V/U FM - Voice
+25544  437.8       SSTV        Mode U - SSTV
+25544  437.825     AFSK/1200   AFSK Mode U APRS te
+25544  2425.0      FM          Mode S1
+# PCSAT (NO-44)
+26931  144.39      APRS/1200   Mode V - R2 Backup
+26931  145.825     APRS/1200   Mode V/V APRS AFSK
+26931  145.8268    APRS/1200   PE0SAT - 1k2 AFSK A
+# SAUDISAT 1C (SO-50)
+27607  436.795     FM          Mode V/U FM Voice C
+# CUTE-1 (CO-55)
+27844  436.83582   CW          PE0SAT - CW Beacon
+27844  436.8375    CW          Mode U TLM
+27844  437.47      AFSK/1200   AFSK Mode U TLM
+# CUBESAT XI-IV (CO-57)
+27848  436.8475    CW          Mode U CW Beacon
+27848  436.8487    CW          PE0SAT - CW Beacon
+27848  437.49      AFSK/1200   AFSK Mode U AFSK TL
+# MOZHAETS 4 (RS22)
+27939  435.352     CW          Mode U CW Beacon
+27939  435.3528    CW          PE0SAT - CW Beacon
+27939  435.353     DADOS/1200  DOKA Mode U FM Doka
+# CUBESAT XI-V
+28895  437.4631    CW          Mode U CW BEACON
+# CUTE-1.7+APD II (CO-65)
+32785  437.275     CW          Mode U - CW - Beaco
+32785  437.475     AFSK/1200   AFSK Mode U TLM 2
+# SEEDS II (CO-66)
+32791  437.485     AFSK/1200   AFSK Mode U TLM
+32791  437.485     CW          CW
+32791  437.485     FM          Mode U Digi
+32791  437.485     SSTV        Mode U SSTV
+32791  437.4857    CW          PE0SAT - CW Beacon
+# YUBILEINY (RS30)
+32953  435.215     PSK/2500    PSK Telemetry Beaco
+32953  435.315     DADOS/2500  DOKA Telemetry Beac
+32953  435.3157    CW          PE0SAT - CW Beacon
+32953  435.353     FM          435.353
+# KKS-1 (KISEKI)
+33499  437.385     CW          CW Beacon
+33499  437.445     AFSK/1200   AFSK Mode U MSG
+# SWISSCUBE
+35932  437.5       PSK/1200    BPSK PE0SAT - 1k2 B
+35932  437.5007    CW          PE0SAT - CW Beacon
+35932  437.505     AFSK/1200   AFSK FSK 1k2 Beacon
+35932  437.505     CW          CW Beacon
+# BEESAT-1
+35933  435.95      DADOS/4800  GMSK Digipeater (Mo
+# ITUPSAT1
+35935  437.3225    DADOS/19200 GFSK GMSK Telemetry
+35935  437.325     CW          CW Beacon
+35935  437.325     DADOS/19200 GFSK GFSK Telemetry
+# XIWANG-1 (HOPE-1)
+36122  435.675     FM          Mode V/U FM
+36122  435.791     CW          CW Beacon
+# O/OREOS (USA 219)
+37224  437.305     AFSK/1200   AFSK AFSK Beacon
+# JUGNU
+37839  437.275     CW          CW Beacon
+37839  437.505     DADOS/2400  FSK TLM
+# SRMSAT
+37841  437.425     CW          CW Beacon
+# ZACUBE-1 (TSHEPISOSAT)
+39417  437.356     DADOS/1200  FSK FSK1k2 TLM
+39417  437.356     DADOS/9600  FSK FSK9K6 TLM
+# GOMX-1
+39430  437.25      DADOS/4800  GMSK 4k8 GMSK
+# CUBEBUG-2 (LO-74)
+39440  437.445     AFSK/1200   AFSK UHF 1K2 AFSK T
+39440  437.445     DADOS/9600  FSK Mode U - FSK9k6
+# FUNCUBE-1 (AO-73)
+39444  145.815     CW          CW Beacon
+39444  145.935     PSK/1200    BPSK BPSK Telemetry
+39444  145.96      USB         Mode U/V Linear
+# UWE-3
+39446  436.395     DADOS/9600  FSK Transmitter
+39446  437.384     DADOS/9600  FSK PE0SAT - 9k6 FS
+39446  437.385     DADOS/9600  FSK 9k6 FSK TLM
+# UNISAT-6
+40012  437.4215    DADOS/9600  FSK 9k6 FSK TLM
+# QB50P1
+40025  145.81366   PSK/1200    BPSK PE0SAT - 1k2 B
+40025  145.815     PSK/1200    BPSK BPSK Telemetry
+40025  145.88      CW          CW Beacon
+40025  145.95      USB         Linear Transponder
+# LILACSAT-2
+40908  144.39      APRS/1200   APRS Digipeater
+40908  437.2       CW          CW Beacon
+40908  437.2       PSK/9600    BPSK BPSK Telemetry
+40908  437.225     DADOS/4800  GFSK GFSK Telemetry
+# CAS-2T & KS-1Q
+41847  435.71      CW          CW Telemetry
+# RADFXSAT (FOX-1B)
+43017  145.96      FM          Mode U/V FM Voice (
+# DIWATA-2B
+43678  145.9       CW          CW Beacon
+43678  145.9       FM          FM VOICE
+# FOX-1CLIFF (AO-95)
+43770  145.92      AFSK/9600   AFSK AFSK9k6 digita
+43770  145.92      FM          DUV TLM
+# ITASAT
+43786  145.86      PSK/1200    BPSK BPSK1k2 AX.25
+43786  2400.15     PSK/14400   BPSK BPSK14k4
+# JY1SAT (JO-97)
+43803  145.84      PSK/1200    BPSK BPSK1k2 TLM
+43803  145.865     CW          U/V CW Transponder
+43803  145.865     USB         U/V SSB Transponder
+# UWE-4
+43880  435.6       DADOS/9600  FSK Mode U - FSK 96
+# TIANYAN 01
+44881  145.89      DADOS/4800  GMSK Mode V GMSK4k8
+44881  145.91      CW          Mode V CW TLM
+44881  145.925     USB         Mode U/V Linear Tra
+# RS-44 & BREEZE-KM R/B
+44909  435.215     DADOS/4800  DOKA Doka-B
+44909  435.315     DADOS       FSK Mode U
+44909  435.605     CW          Mode U - Beacon
+44909  435.64      USB         Mode V/U - Transpon
+44909  435.66      PSK/19200   BPSK Mode U Audio
+# SALSAT
+46495  435.95      AFSK/1200   AFSK TUBiX10 AFSK 1
+# CSS (TIANHE)
+48274  145.825     APRS/1200   3A V/V digipeater A
+48274  145.985     FM          2B U/V FM repeater
+48274  145.985     SSTV        4A V/V imaging SSTV
+48274  436.51      FM          2A V/U FM repeater
+48274  436.51      SSTV        4B U/U imaging SSTV
+48274  437.55      AFSK/1200   AFSK 3B U/U digipea
+# XW-3 (CAS-9)
+50466  435.18      PSK/19200   BPSK Mode U Audio
+50466  435.575     CW          Mode U - Telemetry
+50466  435.725     DADOS/4800  GMSK Mode U - GMSK4
+# UMKA 1 (RS40S)
+57172  437.625     CW          Mode U - CW
+57172  437.625     DADOS/4800  GMSK USP Mode U - G
+57172  437.625     DADOS/9600  GMSK USP Mode U - G
+57172  437.625     SSTV        Mode U - SSTV
+57172  2402.4      PSK         BPSK Mode S - BPSK
+# CUBESX-HSE 3 (RS42S)
+57178  436.57      DADOS/4800  GMSK USP Mode U - G
+# MONITOR-3 (RS58S)
+57180  435.29      DADOS/4800  GMSK USP Mode U - G
+57180  435.29      DADOS/9600  GMSK USP Mode U - G
+57180  435.29      SSTV        Mode U - Robot 36 S
+# MONITOR-4 (RS57S)
+57182  436.08      DADOS/2400  GMSK USP Mode U - G
+57182  436.08      DADOS/4800  GMSK USP Mode U - G
+57182  436.08      DADOS/9600  GMSK USP Mode U - G
+# MONITOR-2 (RS39S)
+57184  435.0       DADOS/9600  DOKA Mode U - DOKA
+57184  435.65      AFSK/1200   AFSK Mode U - AFSK
+57184  435.815     AFSK/1200   AFSK Mode U AFSK 1k
+57184  435.86      DADOS/9600  FSK Mode U - FSK9k6
+57184  435.915     DADOS/9600  DOKA Mode U - DOKA
+# SVYATOBOR 1 (RS60S)
+57187  437.875     DADOS/2400  GMSK USP Mode U - G
+57187  437.875     DADOS/4800  GMSK Mode U - GMSK
+# VIZARD-METEO (RS38S)
+57189  437.825     DADOS/2400  GMSK USP Mode U - G
+57189  437.825     SSTV        SSTV - Robot 72
+# POLYTECH-UNIVERSE 3 (R*)
+57191  436.55      DADOS/38400 FSK [Experiment] Lo
+57191  436.55      DADOS/62500 LoRa Mode U - LoRa
+# UTMN 2 (RS27S)
+57203  435.68      DADOS/9600  GMSK USP Mode U - G
+57203  436.125     DADOS/2400  GMSK USP Mode U - G
+57203  436.125     DADOS/4800  GMSK USP Mode U - G
+57203  436.125     SSTV        Mode U - Robot 36 S
+# KUZGTU 1 (RS47S)
+57217  437.1       DADOS/4800  GMSK USP Mode U - G
+# SONATE-2
+59112  145.825     APRS/1200   Mode V/V - APRS dig
+59112  145.84      CW          Mode V - CW
+59112  145.88      SSTV        Mode V - SSTV - Mar
+59112  437.025     DADOS/9600  GMSK Mode U - GMSK9
+# MESAT1
+60209  435.8       PSK/1200    BPSK UHF TLM 1k2 BP
+# GRBBETA
+60237  145.935     DADOS/9600  GFSK Mode V - GFSK9
+60237  436.785     CW          Mode U - CW
+60237  436.785     DADOS/9600  GFSK Mode U/U - GFS
+60237  2405.0      DADOS/100000 FSK Mode S - FSK100
+# OOV-CUBE (TUBSAT-30)
+60240  435.95      AFSK/1200   AFSK Mode U - AFSK1
+# COLIBRI-S (RS67S)
+61746  436.835     CW          Mode U - CW Beacon
+61746  436.835     DADOS/9600  GFSK Mode U - GFSK9
+# HORS 3 (RS81S)
+61753  435.2       DADOS/38400 FSK Mode U - Teleme
+61753  435.65      DADOS/38400 FSK Mode U - FSK38k
+# HORS 4 (RS82S)
+61754  435.7       DADOS/38400 FSK Mode U - FSK38k
+# ALTAIR (RS65S)
+61779  435.215     AFSK/1200   AFSK Mode U - Trans
+61779  435.615     PSK/4800    BPSK Mode U - BPSK
+61779  435.715     PSK/4800    BPSK Mode U - BPSK
+# ASRTU-1 (AO-123)
+61781  435.4       FM          Mode V/U - FM Trans
+61781  435.4       PSK/9600    BPSK Mode U - Telem
+61781  436.21      PSK/9600    BPSK Mode U - SSDV
+# SAMSAT-IONOSPHERE (RS7*)
+61784  437.4       DADOS/1200  FSK FSK1k2 - AX.25
+# RTU MIREA 1 (RS51S)
+61785  436.2       CW          Mode U - CW Beacon
+61785  436.2       DADOS/9600  GFSK Mode U - GFSK9
+# LASARSAT
+62391  436.925     CW          Mode U - CW - Beaco
+62391  436.925     DADOS/9600  GFSK Mode U/U - GFS
+# CROCUBE
+62394  436.775     CW          CroCube UHF CW Beac
+62394  436.775     DADOS/9600  GFSK Mode U/U - GFS
+# TEVEL2-4
+63213  436.4       FM          Mode V/U - FM Trans
+63213  436.4       PSK/9600    BPSK Mode U - BPSK9
+# TEVEL2-5
+63214  436.4       FM          Mode V/U - FM Trans
+63214  436.4       PSK/9600    BPSK Mode U - BPSK9
+# TEVEL2-6
+63215  436.4       FM          Mode V/U - FM Trans
+63215  436.4       PSK/9600    BPSK Mode U - BPSK9
+# TEVEL2-1
+63217  436.4       FM          Mode V/U - FM Trans
+63217  436.4       PSK/9600    BPSK Mode U - BPSK9
+# TEVEL2-3
+63218  436.4       FM          Mode V/U - FM Trans
+63218  436.4       PSK/9600    BPSK Mode U - BPSK9
+# TEVEL2-2
+63219  436.4       FM          Mode V/U - FM Trans
+63219  436.4       PSK/9600    BPSK Mode U - BPSK9
+# TEVEL2-9
+63237  436.4       FM          Mode V/U - FM Trans
+63237  436.4       PSK/9600    BPSK Mode U - BPSK9
+# TEVEL2-7
+63238  436.4       FM          Mode V/U - FM Trans
+63238  436.4       PSK/9600    BPSK Mode U - BPSK9
+# TEVEL2-8
+63239  436.4       FM          Mode V/U - FM Trans
+63239  436.4       PSK/9600    BPSK Mode U - BPSK9
+# INNOSAT 16 (RS92S7)
+64878  435.83      DADOS/9600  GFSK Mode U - GFSK9
+# GEOSCAN 6 (RS92S6)
+64879  436.94      DADOS/9600  GFSK Mode U - GFSK9
+# GEOSCAN 1 (RS92S1)
+64880  435.97      DADOS/9600  GFSK Mode U - GFSK9
+# 239ALFEROV (RS61S)
+64881  436.27      DADOS/9600  GFSK Mode U - GFSK9
+# GEOSCAN 2 (RS92S2)
+64890  436.16      DADOS/9600  GFSK Mode U - GFSK9
+# GEOSCAN 5 (RS92S5)
+64891  436.66      DADOS/9600  GFSK Mode U - GFSK9
+# GEOSCAN 4 (RS92S4)
+64892  435.335     DADOS/9600  GFSK Mode U - GFSK9
+# GEOSCAN 3 (RS92S3)
+64893  435.74      DADOS/9600  GFSK Mode U - GFSK9
+# INNOSAT 3 (RS92S0)
+64894  436.436     DADOS/9600  GFSK Mode U - GFSK9
+# KNACKSAT-2
+67683  145.825     DADOS/9600  FSK Mode V/V - FSK9

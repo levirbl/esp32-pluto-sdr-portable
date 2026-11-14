@@ -1,0 +1,13 @@
+(version 1)
+# JLCPCB 4 camadas (capacidades lidas em 2026-11-13). As regras gerais estao no .kicad_pro.
+(rule "JLC furo de via minimo"
+  (constraint hole_size (min 0.2mm))
+  (condition "A.Type == 'Via'"))
+(rule "JLC anel de pad com furo"
+  (constraint annular_width (min 0.15mm))
+  (condition "A.Type == 'Pad' && A.isPlated()"))
+(rule "Q3: 0,14 mm entre os pads do proprio footprint (VSON NexFET)"
+  (constraint clearance (min 0.13mm))
+  (condition "A.memberOfFootprint('Q3') && B.memberOfFootprint('Q3')"))
+(rule "JLC furo a trilha"
+  (constraint hole_clearance (min 0.2mm)))
