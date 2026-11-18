@@ -25,6 +25,22 @@ Transmits a `.wav` file from the card's `/tx` folder (16-bit PCM, 8–96 kHz, mo
 48 kHz mono) in **NFM** (±5 kHz deviation), **USB** or **LSB**. The duration comes from the file
 length (up to 3 min per transmission).
 
+## Replay of an IQ recording
+
+In the WAV screen, set **Mode** to **IQ** ("IQ as recorded") to transmit an IQ recording from `/tx`
+instead of audio: `.cs8`/`.c8`, `.cu8`, `.cs16`/`.c16` or a 2-channel 16-bit WAV. The sample rate and the
+recorded center frequency come from the `.txt` next to the file (PortaPack), from the file name
+(`_145500000Hz`, `_500000sps`) or from the WAV header; with no rate the file is refused.
+
+- The file is resampled to **48 kSPS complex**, so only the **±24 kHz** around the recording's center
+  goes out, and the Pluto raises it to its transmit rate. Same 3 min limit and same protections as the WAV.
+- If the recorded center is inside 2 m or 70 cm, the LO goes to it ("LO set to it" in the panel);
+  otherwise the LO is the frequency you chose.
+- **The same guard as the WAV**: the LO ± 24 kHz must be entirely inside 144–148 or 430–440 MHz.
+  Outside the bands it is refused; there is no way around it.
+- Not yet measured on the air (level, bandwidth and images); try it into a dummy load or with the
+  attenuator first.
+
 ## Callsign ID
 
 <img src="../screens/tx_cwid.png" width="320">

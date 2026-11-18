@@ -4,7 +4,9 @@ A handheld radio from 70 MHz to 6 GHz: spectrum and waterfall (with integrated s
 fine RBW), audio (AM, FM, SSB and CW) with automatic noise reduction, recording, decoders (RDS, ADS-B,
 AIS, APRS, radiosondes, VOR, FPV drones), hydrogen-line radio astronomy, satellite pass prediction with Doppler correction, an RF
 oscilloscope and **amateur radio transmit** on 2 m and 70 cm (test tone, WAV file in NFM, USB or
-LSB, CW identification and CW messages, tracking generator).
+LSB, CW identification and CW messages, tracking generator, replay of IQ recordings), plus a **Tools**
+app (image viewer, text editor, RF and antenna calculators, stopwatch and timer, metronome, IQ file
+player and games) and a **Power saver** mode for the battery.
 All of it on a 3.5" touch screen with a rotary encoder, running on a battery.
 
 <p>
@@ -44,9 +46,10 @@ Every app has its own page with screenshots.
 | [Record](docs/apps/record.md) | Records the audio to WAV on the SD card |
 | [Decode](docs/apps/decode.md) | RDS, ADS-B, AIS, radiosondes, APRS, VOR, satellites, FPV drones, radio astronomy |
 | [Files](docs/apps/files.md) | SD card browser, WAV player and waveform viewer |
-| [Status](docs/apps/status.md) | Link, radio and device state |
-| [Settings](docs/apps/settings.md) | Display, clock, calibrations, backups, firmware updates |
-| [Transmit](docs/apps/transmit.md) | Amateur radio TX: tone, WAV, CW, tracking generator |
+| [Tools](docs/apps/tools.md) | Images, text, calculators (RF conv, Antenna, LC), stopwatch/timer, metronome, IQ player, games |
+| [Status](docs/apps/status.md) | Link, radio and device state (open it from Settings) |
+| [Settings](docs/apps/settings.md) | Display, Power saver, clock, calibrations, battery, backups, firmware updates |
+| [Transmit](docs/apps/transmit.md) | Amateur radio TX: tone, WAV, IQ replay, CW, tracking generator |
 
 ## Documentation
 
@@ -203,7 +206,7 @@ connect the TX to the RX without attenuation.
 - The range is 70 MHz to 6 GHz. Outside 325 MHz–3.8 GHz the Pluto's chip (AD9363) works, but out
   of specification. Shortwave (HF) would need an external upconverter.
 - Not yet validated on the air: APRS, radiosondes, VOR and AIS (tested on the PC; there was no
-  traffic where they were tried).
+  traffic where they were tried). The IQ replay in Transmit was not measured in RF either.
 - Touch calibration, crystal correction and internal spur maps depend on each unit and assembly.
 - TX: power was not measured in dBm (only as relative levels on the Pluto's own receiver); the
   Pluto's nominal maximum is a few dBm. The tone's image (LO − tone) measured at least 43 dB below

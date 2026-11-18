@@ -59,7 +59,7 @@ a finger there to clear it. The trace moves along when the frequency changes.
 - **Waterfall speed**: from 48 to 1 line per second, keeping each column's maximum so short signals
   don't vanish.
 - **Floor and range**: automatic or manual.
-- **Palettes**: Classic, Turbo, Fire and Gray ([Settings](settings.md)).
+- **Palettes**: Classic, Turbo, Fire, Gray, Inferno, Viridis, Ocean and Phosphor ([Settings](settings.md)).
 - **Internal spurs**: the spurs the device makes itself can be erased or marked
   ([Settings](settings.md)).
 - **Tap** the spectrum or the waterfall to tune there; **hold** to save that frequency as a memory.

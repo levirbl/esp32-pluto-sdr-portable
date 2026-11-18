@@ -234,9 +234,9 @@ ssh root@192.168.2.1 "mv /mnt/jffs2/sdr/rx_new /mnt/jffs2/sdr/rx_streaming_fft &
 ```
 
 Init starts the new program right away. To check the copy, compare `md5sum
-/mnt/jffs2/sdr/rx_streaming_fft` with the repository file's. The current version (2026-11-10, with
-the radio astronomy mode and the transmit fixes; see the [changelog](../CHANGELOG.md)) has md5
-**fa67a4609797e5e9bdee7cd592adba0c** (183,552 bytes). Update `run.sh` too (it turns on the 2nd core);
+/mnt/jffs2/sdr/rx_streaming_fft` with the repository file's. The current version (2026-11-17, with
+the safety fixes and the Power saver support; see the [changelog](../CHANGELOG.md)) has md5
+**edde88add511b067a933684ec5f83c94** (185,160 bytes). Update `run.sh` too (it turns on the 2nd core);
 since it is only read when the program opens, it can be copied over.
 
 **Transmitting (Transmit app)**: there is nothing to set up on the Pluto. In the log, the line

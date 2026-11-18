@@ -245,6 +245,6 @@ wires on pins 19 and 20, do not plug anything into the devkit's native USB-C.
 3. **Transmit** (licensed amateurs only): the TX antenna goes on the Pluto's **TX SMA**. With no T/R
    switch, use one antenna per port and never connect the TX straight to the RX without an attenuator
    of at least 30 dB (the RX input takes +2.5 dBm at most). Use an antenna made for the band
-   (Settings > Antenna calculator).
+   (Tools > Antenna).
 4. **Record the internal spurs** with no antenna (Settings > Internal spurs). Record them again when
    the assembly or the power supply changes: the map describes the spurs of this assembly.

@@ -17,7 +17,8 @@ screen is locked. Messages (errors, notices) show there for a few seconds.
 
 - **Touch lock**: holding the button for 2 s locks and unlocks the touch screen (the encoder keeps
   working).
-- **Dim when idle**: after a while without use the screen dims. The first touch or turn only wakes it.
+- **Dim when idle**: after a while without use the screen dims. The first touch or turn only wakes it. With the **Power saver** on
+  ([Settings](settings.md#power-saver)) the screen turns off completely after 30 s.
 - **Gestures**: a tap tunes (on the current step); a horizontal drag tunes little by little; a long
   touch on the spectrum or the waterfall saves that frequency as a memory.
 - **Bottom bar**: turn the encoder to pick a cell, press to edit it (green), turn to change the

@@ -6611,7 +6611,7 @@
 		(property "Value" "ALTO-FALANTE" (at 316.23 239.72 0) (effects (font (size 1.27 1.27))))
 		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal" (at 316.23 228.6 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Datasheet" "" (at 316.23 228.6 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "LCSC" "C295747" (at 316.23 228.6 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "LCSC" "C54582899" (at 316.23 228.6 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(pin "1" (uuid "d7411a69-d993-4191-974f-1af595bfbec4"))
 		(pin "2" (uuid "3f14bbfe-0ad2-4391-bbda-dd144d89fcc7"))
 		(pin "MP" (uuid "13ddcbd5-a56e-482b-9396-0a565cba1037"))

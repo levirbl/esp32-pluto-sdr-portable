@@ -6,9 +6,11 @@
 
 | Setting | What it does |
 |---|---|
-| Brightness | Screen brightness |
+| Brightness | Screen brightness (with the Power saver on, the effective maximum is 40%) |
 | Dim when idle | Never, 30 s, 1, 2, 5 or 10 min |
-| Palette | Waterfall colors: Classic, Turbo, Fire, Gray (with a sample) |
+| [Power saver](#power-saver) | off or on: lower brightness, screen off after 30 s idle, slower CPU. Changing it restarts the device |
+| Palette | Waterfall colors: Classic, Turbo, Fire, Gray, Inferno, Viridis, Ocean, Phosphor (with a sample) |
+| Display gamma | Gray-level curve of the screen panel: Default, Alt, Mid +, Mid −. A matter of taste and of the panel; compare by eye |
 | Step by band | Turns the automatic step on entering a band on or off |
 | Integrated spectrum | Average of all the FFTs on the Pluto (yes) or one block per line (no) |
 | Fine RBW (200 kHz) | On the 200 kHz span: auto (only 110 MHz–2 GHz), always or never. Below 200 kHz it is always on. "Pluto has no fine RBW" = the Pluto program is older |
@@ -17,24 +19,45 @@
 | Crystal (FM station) | Measures the Pluto's frequency error on a strong FM station and corrects it |
 | Date and time | Source (RDS automatic or manual), RDS station, time zone, manual setting |
 | Measure battery | Turns on the battery reading (needs the divider fitted) |
-| Battery voltage | Fine adjustment to match the multimeter |
-| Log battery | Writes the discharge to `/bat` on the card (CSV every 30 s, with the filtered and the raw reading) |
-| Antenna calculator | Dipole, monopole, 5/8, radial and λ/4 coax lengths for any frequency, with drawings |
+| [Battery voltage](#battery-voltage) | Adjusts the reading to match the multimeter: turn (10 mV per click) or tap and type the voltage |
+| Log battery | Writes the discharge to `/bat` on the card (CSV every 30 s: `s,mV,pct,app,raw,ps`, with the filtered and the raw reading and whether the Power saver was on) |
 | Internal spurs | Records, with no antenna, the spurs the device makes itself, per band; they then vanish from the spectrum and the audio |
 | Backup to card | Saves and restores the settings in `/cfg` |
 | Firmware from card | Updates the firmware from `/firmware` and goes back to the previous one |
 | Pluto from card | Sends the Pluto program from `/pluto` over the data cable |
-| Restore defaults | Resets the settings (keeps the touch calibration, position, clock and crystal) |
+| Status | Opens the [Status](status.md) screen (radio, link and device state) |
+| Restore defaults | Resets the settings (keeps the touch calibration, position, clock and crystal). Click twice to confirm |
 
-## Antenna calculator
+The antenna calculator that used to be here is now **Tools > Antenna** ([Tools](tools.md#antenna)).
 
-<img src="../screens/settings_antenna.png" width="320">
+## Power saver
 
-For any frequency (turn, or tap to type) or a ready band (current radio frequency, FM, VOR, 2 m/APRS,
-AIS, 433, 70 cm, ADS-B): wavelength, dipole total length and each arm, 1/4 monopole and its
-counterpoise/radials, 5/8 vertical, and a 1/4 coax transformer (RG-58 and foam), with drawings of the
-dipole and the monopole. For receiving the length is not critical: cut it long, then trim it while
-watching the SNR.
+Settings > **Power saver**: **off** (default) or **on**, to make the battery last longer. Changing it
+saves the setting, shows "Restarting in 3 s..." and restarts the device (it refuses while a recording
+is running: "Stop recording first"). With it **on**:
+
+- **Brightness** is capped at 40% (it never goes above the value you set);
+- the **screen turns off** after 30 s without touching or turning anything, whatever "Dim when idle"
+  says: always in Audio and Record, and in the apps that do not need the radio (Menu, Tools, Files,
+  Settings, Status) when there is no Pluto. Any touch or turn wakes it;
+- the **CPU runs at 160 MHz** instead of 240 MHz (decided at boot, so it only takes effect after the
+  restart) and the opening logo and animation are skipped;
+- the Pluto's integrated spectrum is turned off to save work in **Audio** (when squelch, noise
+  reduction and zoom are all off) and in **Record** (when noise reduction and zoom are off).
+
+**Transmit** behaves exactly as with the saver off (no brightness cap, the screen stays on). The
+Status screen shows the CPU frequency while the saver is on.
+
+## Battery voltage
+
+With **Measure battery** on (needs the divider, see [Assembly](../ASSEMBLY.md#step-6-battery-meter)), put
+a multimeter on the battery wires and make the displayed voltage equal to it. Two ways:
+
+- **turn** the encoder (press to edit): each click moves the shown value 10 mV;
+- **tap the line** and type the multimeter's voltage on the keypad, in volts (`3.87`) or millivolts
+  (`3870`). The accepted range is **2.50 to 4.20 V**; outside it the keypad stays open.
+
+The correction factor is saved.
 
 ## Date and time
 
